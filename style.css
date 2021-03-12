@@ -1,0 +1,48 @@
+body {
+    background-image: url("ryan-hutton-Jztmx9yqjBw-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    margin: 0; 
+}    
+.main-box {
+    background: red;
+    box-shadow: 15px 15px 15px 15px black;
+    padding: 2.5rem;
+    width: 750px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    pointer-events: painted darkorange;    
+}
+.box {
+    width: 125px;
+    height: 125px;
+    background: black;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 15px 15px black;
+}
+.box:hover {
+    cursor: pointer;
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+.box:active {
+    background: orange;
+    box-shadow: 15px 15px 15px 10px black;
+    font-size: 1.1rem;
+}
+.circle {
+    border-radius: 50%;    
+}
+.second-box { 
+    background: darkolivegreen;
+    align-self: center;
+}
