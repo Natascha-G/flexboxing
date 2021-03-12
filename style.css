@@ -11,15 +11,13 @@ body {
     margin: 0; 
 }    
 .main-box {
-    background:opacity;
-    opacity: 0,5;
+    background:transparent;
     box-shadow: 15px 15px 15px 15px black;
     padding: 2.5rem;
     width: 750px;
     height: 500px;
     display: flex;
-    justify-content: space-around;
-    pointer-events: painted darkorange;    
+    justify-content: space-around;   
 }
 .box {
     width: 125px;
